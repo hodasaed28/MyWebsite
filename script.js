@@ -54,7 +54,7 @@ function login() {
             }
 
             if(index != credentialsArray.length)
-                window.location.href = "/main";
+                window.location.href = "./main";
             else
                 errorMessage.textContent = "Invalid username or password";
 
