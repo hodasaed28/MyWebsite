@@ -33,7 +33,7 @@ function login() {
     var errorMessage = document.getElementById("errorMessage");
 
     // Fetch user credentials from the external file
-    fetch('login/users.txt')
+    fetch('./login/users.txt')
         .then(response => response.text())
         .then(data => {
             // Split the data into an array of credentials
