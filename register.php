@@ -5,7 +5,7 @@ $username = $_POST['username'];
 $password = $_POST['password'];
 
 // Path to the users.txt file
-$filePath = 'login/users.txt';
+$filePath = './login/users.txt';
 
 // Check if the user already exists
 if (userExists($filePath, $username)) {
